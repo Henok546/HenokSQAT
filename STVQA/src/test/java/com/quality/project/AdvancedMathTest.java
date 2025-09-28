@@ -42,6 +42,7 @@ public class AdvancedMathTest {
 		double num1 = 12;
 		double num2 = 4;
 		double result = calc.divide(num1, num2);
+		assertEquals(3, result);
 		
 		
 	}
@@ -81,3 +82,4 @@ public class AdvancedMathTest {
 	
 
 }
+
